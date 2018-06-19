@@ -1,3 +1,4 @@
+
 /* Color scheme */
 .success{
     background-color: #40476d
@@ -7,6 +8,7 @@
 }
 .default{
     background-color:  #eadeda;
+    color:black;
 }
 .warning{
     background-color: #ad5d4e;
@@ -52,6 +54,29 @@
 .col-12 {width: 100%;}
 
 /* end of Responsive grid defination*/
+
+/* input fields */
+input[type=text], input[type=password], input[type=email]{
+    width:100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+/* end of defining input fields*/
+
+/* Define buttons */
+.btn{
+    padding: 12px 24px;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+/* end of buttons definations */
 
 body{
     margin:0;
