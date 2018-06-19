@@ -1,0 +1,49 @@
+/* Color scheme */
+.success{
+    background-color: #40476d
+}
+.info{
+    background-color:#820263
+}
+.default{
+    background-color:  #eadeda;
+}
+.warning{
+    background-color: #ad5d4e;
+}
+.danger{
+    background-color: #d90368;
+}
+/* end of color scheme */
+
+
+
+/* navigation bar */
+.navbar{
+    overflow: hidden;
+}
+
+
+.brand{
+    float: left;
+}
+
+.nav-menu a{
+    float:right;
+    display: block;
+}
+
+/* for nav bar links*/
+.nav-link{
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu a:hover{
+    background-color: #eadeda; 
+    color: #40476d;
+}
