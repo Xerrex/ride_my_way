@@ -1,0 +1,140 @@
+
+/* Color scheme */
+.success{
+    background-color: #40476d
+}
+.info{
+    background-color:#820263
+}
+.default{
+    background-color:  #eadeda;
+    color:black;
+}
+.warning{
+    background-color: #ad5d4e;
+}
+.danger{
+    background-color: #d90368;
+}
+/* end of color scheme */
+
+/*alignment classes */
+.align-center{
+    text-align: center;
+}
+/* end of alignment classes */
+
+/* Responsive Grid */
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* end of Responsive grid defination*/
+
+/* input fields */
+input[type=text], input[type=password], input[type=email]{
+    width:100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+/* end of defining input fields*/
+
+/* Define buttons */
+.btn{
+    padding: 12px 24px;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+/* end of buttons definations */
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation bar */
+.navbar{
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width:100%;
+    margin-bottom: 2px;
+    padding:2px
+}
+
+
+.brand{
+    float: left;
+}
+
+.nav-menu a{
+    float:right;
+    display: block;
+}
+
+/* for nav bar links*/
+.nav-link{
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu a:hover{
+    background-color: #eadeda; 
+    color: #40476d;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    left:0;
+}
+
+.img-fit{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}

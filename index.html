@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ridemyway</title>
+    <link rel="stylesheet" type="text/css" href="UI/css/app.css">
+</head>
+<body>
+    <nav class="navbar success">
+        <a class="brand nav-link info" href="#">Ride My Way</a>
+        <div class="nav-menu">
+            <a class="nav-link" href="#">About</a>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-5">
+            <h3 class="align-center">Welcome to ride my Way</h3>
+            <img class="img-fit" src="UI/images/ride.jpg">
+        </div>
+        <div class="col-5">
+            <fieldset class="card">
+                <legend>Sign up</legend>
+                <form>
+                    <div class="row align-center">
+                        <div class="col-3">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="col-9">
+                            <input type="text" id="name" name="name" placeholder="Full name" required><br>
+                        </div>
+                    </div>
+                    <div class="row align-center">
+                        <div class="col-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-9">
+                            <input type="email" id="email" name="email" placeholder="Ohms@ridemyway.com" required><br>
+                        </div>
+                    </div>
+                    <div class="row align-center">
+                        <div class="col-3">
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="col-9">
+                            <input type="password" id="password" name="password" placeholder="minimum 6" required><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-center">
+                            <button class="btn warning" type="cancel">Clear</button>
+                            <button class="btn success" type="submit">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+    <footer class="success align-center">
+        <p class="nav-link">Ride-My-Way &copy;2018</p>
+    </footer>
+</body>
+
+</html>
