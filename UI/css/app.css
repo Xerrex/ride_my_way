@@ -1,3 +1,4 @@
+/* Reference w3Schools.com*/
 
 /* Color scheme */
 .success{
@@ -15,6 +16,10 @@
 }
 .danger{
     background-color: #d90368;
+}
+
+.text-color-success{
+    color:#40476d;
 }
 /* end of color scheme */
 
@@ -71,6 +76,7 @@ input[type=text], input[type=password], input[type=email]{
     cursor:pointer;
     color:white;
     font-weight: bolder;
+    text-decoration:none;
 }
 
 .btn:hover{
@@ -78,12 +84,17 @@ input[type=text], input[type=password], input[type=email]{
 }
 /* end of buttons definations */
 
+
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    margin:2px;
+    padding:10px;
+    width:100%;
+    height:auto;
 }
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
 }
 
 body{
