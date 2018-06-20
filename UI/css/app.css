@@ -2,10 +2,10 @@
 
 /* Color scheme */
 .success{
-    background-color: #40476d
+    background-color: #40476d;
 }
 .info{
-    background-color:#820263
+    background-color:#820263;
 }
 .default{
     background-color:  #eadeda;
@@ -166,7 +166,7 @@ body{
     left: 0;
     width:100%;
     margin-bottom: 2px;
-    padding:2px
+    padding:2px;
 }
 
 
