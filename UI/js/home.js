@@ -1,10 +1,12 @@
 $(document).ready(function(){
 
     $(".modal-btn ").click(function(){
-        $("#ride_details_modal").css('display', 'block');
+        var modal = $(this).attr("target");
+
+        $(modal).css('display', 'block');
     });
     
     $(".modal-close").click(function(){
-        $("#ride_details_modal").css('display', 'none');
+        $(".modal").css('display', 'none');
     });
  });
