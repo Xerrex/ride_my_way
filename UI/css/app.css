@@ -61,7 +61,11 @@
 /* end of Responsive grid defination*/
 
 /* input fields */
-input[type=text], input[type=password], input[type=email]{
+input[type=text], 
+input[type=password], 
+input[type=email],
+input[type=datetime-local],
+input[type=number]{
     width:100%;
     padding: 10px 20px;
     border: 1px solid #ccc;
