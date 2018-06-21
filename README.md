@@ -1,5 +1,5 @@
 # Ride My Way
-Ride-my_way is a carpooling application that provides drivers with the ability to create ride offers and passengers to join available ride offers.This Repo contains the UI designs for the App.
+Ride-My-Way is a carpooling application that provides drivers with the ability to create ride offers and passengers to join available ride offers.This Repo contains the UI designs for the App.
 
 ## Available Pages/ Features
 * [Signup page]()-To create a new account.
@@ -7,7 +7,7 @@ Ride-my_way is a carpooling application that provides drivers with the ability t
 * [Home]() - To view all available rides.
 * [View ride details]() - Show ride details.
 
-## Installations
+## Installation
 * Download or clone the repo with the following command:
   ```
   git clone https://github.com/Xerrex/ride_my_way.git
