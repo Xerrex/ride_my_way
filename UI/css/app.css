@@ -206,3 +206,10 @@ footer{
     height: auto;
     object-fit: cover;
 }
+
+img.avatar{
+    border:1px solid black;
+    width:50%;
+    height:80%;
+    border-radius: 50%;
+}
