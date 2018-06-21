@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+    
+    <title>Profile</title>
+</head>
+<body>
+    <nav class="navbar success">
+        <a class="brand nav-link info" href="home.html">Ride My Way</a>
+        <div class="nav-menu">
+            <a class="nav-link" href="../../index.html">Log out</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="alerts.html">Notifications
+                <i class="fa fa-bell" style="color:red;"></i>
+            </a>
+            <a class="nav-link info" href="user.html">User</a>
+        </div>
+    </nav>
+    <div class="row card">
+        <div class="col-4">
+           <img src="../images/user_avatar.png" class="avatar"/>
+           <p>Username</p>
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-6">
+                    <fieldset>
+                        <legend class="align-center">Rides Offered</legend>
+                        <a href="#" class="btn danger">3</a>
+                        <br><br><br><br><br><br>
+                    </fieldset>
+                </div>
+                <div class="col-6">
+                    <fieldset>
+                        <legend class="align-center">Rides Taken</legend>
+                        <a href="#" class="btn danger">4</a>
+                        <br><br><br><br><br><br>
+                    </fieldset>  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table id="rides">
+                <caption>Rides</caption>
+                <tr>
+                    <th class="success">Ride Direction</th>
+                    <th class="success">Date of travel</th>
+                    <th class="success">Ride status</th>
+                    <th class="success">Actions</th>
+                </tr>
+                <tr>
+                    <td>Town 1 - Town 2</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Offered</td>
+                    <td><a href="ride_owner.html" class="btn info">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town1 - Town 2</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="ride.html" class="btn info">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town2 - Town 5</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="ride.html" class="btn info">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town 1 - Town 2</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Offered</td>
+                    <td><a href="ride_owner.html" class="btn info">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town 1 - Town 2</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Offered</td>
+                    <td><a href="ride_owner.html" class="btn info">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town2 - Town 5</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="ride.html" class="btn info">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town2 - Town 5</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="ride.html" class="btn info">view</a></td>
+                </tr>
+            </table>
+            <br><br><br><br>
+        </div>
+    </div>
+
+    <footer class="success align-center">
+        <p class="footer-text">Ride-My-Way &copy;2018</p>
+    </footer>
+
+</body>
+</html>
