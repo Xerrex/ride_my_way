@@ -15,7 +15,9 @@
         <div class="nav-menu">
             <a class="nav-link" href="../../index.html">Log out</a>
             <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Notifications</a>
+            <a class="nav-link" href="alerts.html">Notifications
+                <i class="fa fa-bell" style="color:red;"></i>
+            </a>
             <a class="nav-link" href="user.html">User</a>
         </div>
     </nav>
@@ -24,10 +26,11 @@
         <div class="col-3"><input type="text" id="destination" placeholder="Headed to"/></div>
         <div class="col-3"><button class="btn success" type="button" id="search_ride">Search</button></div>
         <div class="col-3">
-            <button class="modal-btn btn info" target="create_ride_modal" type="button">Create Ride</button>
+            <a href="create_ride.html" class="modal-btn btn info">Create Ride</a>
         </div>
+        <br><br><br><br><br>
     </div>
-
+    
     <div class="row">
         <div class="col-3">
             <div class="card default">
@@ -185,68 +188,6 @@
     <footer class="success align-center">
         <p class="footer-text">Ride-My-Way &copy;2018</p>
     </footer>
-
-
-<div id="create_ride_modal" class="modal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="modal-close">&times;</span>
-            <h3 class="modal-title">Create a Ride Offer</h3>
-        </div>
-        <div class="modal-body">
-            <form action="home.html">
-                <div class="row">
-                    <div class="col-2"><label for="depature">Starting Point</label></div>
-                    <div class="col-4">
-                        <input type="text" name="starting_point" placeholder="Where do you depart from?" required/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"><label for="destination">Headed to</label></div>
-                    <div class="col-4">
-                        <input type="text" name="destination" placeholder="Where are you headed to?" required/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"><label for="departure_time">Depature time</label></div>
-                    <div class="col-4">
-                        <input type="datetime-local" name="departure_time" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"><label for="arrival_time">Arrival time</label></div>
-                    <div class="col-4">
-                        <input type="datetime-local" name="arrival_time" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"><label for="seat">Seats</label></div>
-                    <div class="col-4">
-                        <input type="number" name="seat" placeholder="How many Passenges?" 
-                            max="20" min="1" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"><label for="vehicle_plate">Vehicle Plates</label></div>
-                    <div class="col-4">
-                        <input type="text" name="vehicle_plate" placeholder="KCH 456B" 
-                            max="20" min="1" required>
-                    </div>
-                </div>
-        </div>
-        <div class="modal-footer">
-            <div class="row">
-                <div class="col-6 align-center">
-                    <button type="submit" class="btn success">Create Offer</button>
-                </div>
-                <div class="col-6 align-center">
-                    <button type="cancel" class="btn warning">Cancel</button>
-                </div>
-            </form>    
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <script src="../js/home.js"></script>
