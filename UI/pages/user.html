@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+    
+    <title>Profile</title>
+</head>
+<body>
+    <nav class="navbar success">
+        <a class="brand nav-link info" href="home.html">Ride My Way</a>
+        <div class="nav-menu">
+            <a class="nav-link" href="../../index.html">Log out</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Notifications</a>
+            <a class="nav-link info" href="user.html">User</a>
+        </div>
+    </nav>
+    <div class="row card">
+        <div class="col-4">
+           <img src="../images/user_avatar.png" class="avatar"/>
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-6">
+                    <fieldset>
+                        <legend class="align-center">Rides Offered</legend>
+                        <a href="#" class="btn danger">50</a>
+                        <br><br><br><br><br><br>
+                    </fieldset>
+                </div>
+                <div class="col-6">
+                    <fieldset>
+                        <legend class="align-center">Rides Taken</legend>
+                        <a href="#" class="btn danger">50</a>
+                        <br><br><br><br><br><br>
+                    </fieldset>  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table id="rides">
+                <caption>Rides</caption>
+                <tr>
+                    <th>Ride Direction</th>
+                    <th>Date of travel</th>
+                    <th>Ride status</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>Town 1 - Town 2</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Offered</td>
+                    <td><a href="#" class="">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town1 - Town 2</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="#" class="">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town2 - Town 5</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="#" class="">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town2 - Town 5</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="#" class="">view</a></td>
+                </tr>
+                <tr>
+                    <td>Town2 - Town 5</td>
+                    <td>Monday 18/06/2018</td>
+                    <td>Took</td>
+                    <td><a href="#" class="">view</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer class="success align-center">
+        <p style="padding:20px; color:honeydew; font-weight: bold; bottom:0;">
+            Ride-My-Way &copy;2018</p>
+    </footer>
+<style type="text/css">
+#rides{
+    width:100%;
+    border-collapse: collapse;
+}
+
+#rides caption{
+    font-weight: bold;
+}
+
+#rides td, #rides th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#rides tr:nth-child(even){background-color: #f2f2f2;}
+
+#rides tr:hover {background-color: #ddd;}
+#rides th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #40476d;
+    color: white;
+}
+footer{
+    position:static;
+}
+</style>
+
+</body>
+</html>
