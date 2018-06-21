@@ -223,5 +223,28 @@ img.avatar{
 }
 
 /* Define table */
+table{
+    width:100%;
+    border-collapse: collapse;
+}
 
+table caption{
+    font-weight: bold;
+}
+
+table td, 
+table th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
 /* End of Table Definition*/
