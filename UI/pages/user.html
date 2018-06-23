@@ -22,32 +22,24 @@
         </div>
     </nav>
     <div class="row card">
-        <div class="col-4">
+        <div class="col-4 align-center">
            <img src="../images/user_avatar.png" class="avatar"/>
            <p>Username</p>
         </div>
         <div class="col-8">
             <div class="row">
-                <div class="col-6">
-                    <fieldset>
-                        <legend class="align-center">Rides Offered</legend>
-                        <a href="#" class="btn danger">3</a>
-                        <br><br><br><br><br><br>
-                    </fieldset>
+                <div class="col-12 align-center">
+                    <h2><b>Rides</b></h2>
+                    <br><br><br>
+                    <span class="align-center label danger round-large">Offered: 3</span>
+                    <span class="align-center label success round-large">Taken: 4</span>
                 </div>
-                <div class="col-6">
-                    <fieldset>
-                        <legend class="align-center">Rides Taken</legend>
-                        <a href="#" class="btn danger">4</a>
-                        <br><br><br><br><br><br>
-                    </fieldset>  
-                </div>
-                
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
+            <br>
             <table id="rides">
                 <caption>Rides</caption>
                 <tr>
@@ -106,6 +98,15 @@
     <footer class="success align-center">
         <p class="footer-text">Ride-My-Way &copy;2018</p>
     </footer>
+
+
+<style type="text/css">
+    .round-large{
+        padding: 4em 2em;
+        border-radius: 50%;
+        margin:2em;
+    }
+</style>
 
 </body>
 </html>

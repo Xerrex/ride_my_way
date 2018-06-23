@@ -1,26 +1,18 @@
 /* Reference w3Schools.com*/
 
 /* Color scheme */
-.success{
-    background-color: #40476d;
-}
-.info{
-    background-color:#820263;
-}
+.success{background-color: #40476d;}
+.info{background-color:#820263;}
+
 .default{
     background-color:  #eadeda;
     color:black;
 }
-.warning{
-    background-color: #ad5d4e;
-}
-.danger{
-    background-color: #d90368;
-}
+.warning{background-color: #ad5d4e;}
 
-.text-color-success{
-    color:#40476d;
-}
+.danger{background-color: #d90368;}
+
+.text-color-success{color:#40476d;}
 /* end of color scheme */
 
 /*alignment classes */
@@ -86,6 +78,12 @@ input[type=number]{
 .btn:hover{
     opacity: 0.5;
 }
+
+.label{
+    color:white;
+    padding:2em;
+}
+
 /* end of buttons definations */
 
 /* define cards */
